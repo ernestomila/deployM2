@@ -1,0 +1,10 @@
+.sectionCard {
+display: flex; 
+justify-content: space-around;
+}
+
+.sectionCard img {
+    width:100px;
+    height: 100px; 
+    margin-top: -30px;
+  }
