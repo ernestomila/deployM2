@@ -7,7 +7,7 @@ function existCity(data, id) {
 }
 
 function fetchCity(ciudad, setData, data) {
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric`)
         .then(r => r.json())
         .then((recurso) => {
             console.log(recurso);
