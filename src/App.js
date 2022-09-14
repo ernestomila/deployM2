@@ -24,6 +24,7 @@ function App() {
       return prevData.filter(city => city.id !== id)
     })
   }
+  console.log('Pathname:', window.location.pathname);
   React.useEffect(() => {
     if (navigator.geolocation && window.location.pathname === '/') {
       navigator.geolocation.getCurrentPosition((position) => {
